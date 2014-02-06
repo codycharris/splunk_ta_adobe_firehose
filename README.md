@@ -1,14 +1,19 @@
 Add-on for Adobe Analytics Firehose
 ======================================================================
 Author:                  Cody Harris
+
 Add-on Name:             Splunk Add-on for Adobe Analytics Firehose
+
 Add-on Version:          0.1.1
+
 Add-on Date:             02.06.14
 
 
 Description
 ------------------------------
-Splunk Add-on for Adobe Analytics Firehose using the REST Modular Input. http://apps.splunk.com/app/1546/
+Splunk Add-on for Adobe Analytics Firehose using the REST Modular Input. 
+
+http://apps.splunk.com/app/1546/
 
 
 ## Installation of the add-on in Splunk
