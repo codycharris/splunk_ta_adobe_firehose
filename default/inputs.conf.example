@@ -1,0 +1,29 @@
+##################################################
+# REST input for Adobe Analytics firehose [Beta] #
+##################################################
+# Details: 
+# https://beta-developer.omniture.com/en_US/documentation/analytics-firehose/overview-1
+#
+# Oath2 Token Generation: 
+# https://beta-developer.omniture.com/en_US/documentation/authentication/auth-overview-1
+
+##################################################
+## Replace all options in curly brackets below! ##
+##################################################
+
+[rest://Adobe-Firehose]
+host = firehose.omniture.com
+auth_type = oauth2
+endpoint = https://firehose1.omniture.com/api/1/stream/<endpoint>
+http_method = GET
+index_error_response_codes = 0
+oauth2_access_token = <Oath Token Provided by Adobe. See comment above.>
+response_type = json
+sourcetype = adobe:firehose
+streaming_request = 1
+index = firehose
+disabled = 0
+oauth2_client_id = <The client ID as defined when you register your app. e.g. Splunk>
+oauth2_client_secret = <Client Secret>
+oauth2_refresh_props = client_id=<Client ID>,response_type=code,state=1234567890
+oauth2_refresh_url = https://marketing.adobe.com/authorize
