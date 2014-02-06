@@ -31,6 +31,12 @@ http://apps.splunk.com/app/1546/
 4. Restart Splunk. $SPLUNK_HOME/bin/splunk restart 
 
 
+Adobe's Documentation: 
+https://beta-developer.omniture.com/en_US/documentation/analytics-firehose/overview-1
+
+OAuth2 Documentaion (needed to generate an access token): 
+https://beta-developer.omniture.com/en_US/documentation/authentication/auth-overview-1
+
 ## Sample Inputs Config 
 
     [rest://Adobe-Firehose]
